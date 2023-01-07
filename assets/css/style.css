@@ -110,6 +110,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .left-section {
