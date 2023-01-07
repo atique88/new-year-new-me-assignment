@@ -1,26 +1,295 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
-    margin: 0;  
-    padding: 0;  
-    border: 0;  
-    font-size: 100%;  
-    font: inherit;  
-    vertical-align: baseline; 
- }
-.first-section{
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Work Sans';
+}
+.text-right{
+    text-align: right;
+}
+
+.first-section {
     background-image: url(../images/banner/banner3.png);
     background-size: cover;
     background-position: center center;
+    padding-top: 120px;
+    padding-bottom: 250px;
 }
-.wrapper{
+
+.wrapper {
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
-.left-section{
+
+.left-section {
     width: 50%;
-    float: left;
 }
-.right-section{
+
+.right-section {
     width: 50%;
-    float: left;
+}
+
+.heading {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: right;
+
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+.button {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+
+    color: #005FAC;
+    background: #fff;
+    border: 0 none;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.second-section {}
+
+.heading-title {
+    display: flex;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-top: 50%;
+    padding-left: 86px;
+    color: #005FAC;
+    text-align: justify;
+}
+
+.title-description {
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 86px;
+    width: 416px;
+    height: 104px;
+    left: 862px;
+
+
+}
+
+.list-style-type {
+    padding-top: 0px;
+    padding-left: 96px;
+}
+
+/* my plans styles */
+.My-plans {
+    margin-top: 130px;
+
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    padding: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    text-align: center;
+    gap: 86px;
+    justify-content: space-between;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.third-section {
+    padding-top: 50px;
+}
+
+.call-to-container {
+    background-image: url(../images/watch.png);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.title-wrapper{
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    background-image: url(../images/gradient1.png);
+    background-position: center center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.contant {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+}
+
+.call-to-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 15px;
+
+    color: #FFFFFF;
+}
+
+.call-to-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #005FAC;
+    background: #fff;
+    border: 0 none;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+/* contact style */
+.contact .section-title {
+    text-align: left;
 }
